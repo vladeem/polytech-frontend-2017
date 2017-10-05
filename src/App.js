@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Commit from './com.js';
+import CattleList from './Cattle.js';
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-           <Commit name="New Branch" secondName="Git"/>
+      <div className="App" style={{border:'2px solid black',width:'60%',margin:'0 auto', padding:'25px'}}>
+			<div></div>
+           <CattleList/>
+			
       </div>
     );
   }
+  constructor(props) {
+	super(props);
+	
+
+  }
+  
+
+  
 }
 
 export default App;
