@@ -20,8 +20,6 @@ class NumberForm extends Component{
         this.setState({
             value: event.target.value
         });
-		
-        //this.props.onChange(event.target.value);
     }
 	clickHandle(){
 		this.props.addGuess(this.state.value);
