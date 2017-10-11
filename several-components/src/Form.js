@@ -12,7 +12,6 @@ class NumberForm extends Component{
 		this.state={
 			value:''
 		};
-		
 		this.handleChange = this.handleChange.bind(this);
 		this.clickHandle = this.clickHandle.bind(this);
 	}
