@@ -23,15 +23,18 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-body{
-padding:25px;
+body {
+  padding: 25px;
 }
 
-.cattleDiv{
-	text_align: center;
+.cattleDiv {
+  text_align: center;
 }
-
